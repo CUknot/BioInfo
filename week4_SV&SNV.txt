@@ -1,0 +1,71 @@
+>reference_genome
+ACCTCGAGTGTTCAGAAGTTTCAATAAAAACACTATGGGGGCCCCTCACTCGAAGACCAAATGTCTTGGGCCGATGGTGACAATGTGCTTCACACAGTCG
+
+>read_001
+         GTTCAGAAGTTTCAATAAAAACACTATGGGGGCCC          GACCAAATGTCTTGGGCCGATGGTGACAATGTGCT
+>read_002
+                   TTCAATAAAAACACTATGGGGGCCCCTCACTCGA           CTTGGGCCGATGGTGACAATGTGCTTCACACAGTC
+>read_003                                       +A                                   -T
+ACCTCGAGTGTTCAGAAGTTTCAATAAAAACACTA          TCACTCGAAGACCAAATGTCTTGGGCCGATGGTGA
+>rea*d_004
+     GAGTGTTCAGAAGTTTCAATAAAAACACTATGGGG          CGAAGACCAAATGTCTTGGGCCGATGGTGACAATG
+>read_005
+              GAAGTTTCAATAAAAACACTATGGGGGCCCCTCAC          AATGTCTTGGGCCGATGGTGACAATGTGCTTCACA      
+
+
+>reference_genome
+ATAGTGCCGTGGCCGCGGGACGGTACGGAGCCTATCCCCTCGCCAGCCGATTCTGCCACCCCGACGCACTGGCCGGGAGCCGTCGCTCGGGCGATGGCCG
+
+ATAGTGCCGTGG                    TATCCCCTCGCC #29/
+ TAGTGCCGTGGC                    ATCCCCTCGCCA #43/
+   GTGCCGTGGCCG                    CCCCTCGCCAGC #31/
+      CCGTGGCCGCGG                    CTCGCCAGCCGA #21/
+       CGTGGCCGCGGG                    TCGCCAGCCGAT #42/
+          GGCCGCGGGACG                    CCAGCCGATTCT #19/      
+           GCCGCGGGACGG                    CAGCCGATTCTG #34/
+              GCGGGACGGTAC                    CCGATTCTGCCA #27/
+                 GGACGGTACGGA                    ATTCTGCCACCC #38/
+                   ACGGTACGGAGC                    TCTGCCACCCCG #33/
+                      GTACGGAGCCTA                    GCCACCCCGACG #25/
+                        ACGGAGCCTATC                    CACCCCGACGCA #36/
+                        ACGGAGCCTATC                    CACCCCGACGCA #9/
+                         CGGAGCCTATCC                    ACCCCGACGCAC #8/   
+                          GGAGCCTATCCC                    CCCCGACGCACT #37/
+                             GCCTATCCCCTC                    CGACGCACTGGC #23/
+                              CCTATCCCCTCG                    GACGCACTGGCC #30/
+                              CCTATCCCCTCG                    GACGCACTGGCC #18/
+                                 ATCCCCTCGCCA                    GCACTGGCCGGG #39/  
+                                  TCCCCTCGCCAG                    CACTGGCCGGGA #40/
+                                  TCCCCTCGCCAG                    CACTGGCCGGGA #16/ 
+                                   CCCCTCGCCAGC                    ACTGGCTACGGA #4*
+                                     CCTCGCCAGCCG                    TGGCTACGGAGC #22* 
+                                      CTCGCCAGCCGA                    GGCCGGGAGCCG #11   
+                                       TCGCCAGCCGAT                    GCCGGGAGCCGT #5               
+                                       TCGCCAGCCGAT                    GCCGGGAGCCGT #41
+                                           CAGCCGATTCTG                    GGAGCCGTCGCT #20/
+                                            AGCCGATTCTGC                    GAGCCGTCGCTC #28
+                                                GATTCTGCCACC                    CGTCGCTCGGGC #26
+                                                 ATTCTGCCACCC                    GTCGCTCGGGCG #14
+                                                     TGCCACCCCGAC                    CTCGGGCGATGG #12                                                   
+                                                      GCCACCCCGACG                    TCGGGCGATGGC #13
+                                                       CCACCCCGACGC                    CGGGCGATGGCC #2
+                                                         
+
+
+
+CAGCCGATTCTG                    CGGAGCCTATCC #24
+ GATTCTGCCACC                    CCTATCCCCTCG #6
+      TGCCACCCCGAC                    CCCCTCGCCAGC #10
+           CCCCGACGCACT                    CGCCAGCCGATT #15
+                                            GCCAGCCGATTC                    TACGGAGCCTAT #32
+ACGGAGCCTATC                    CACCCCGACGCA #17/ 
+TATCCCCTCGCC                    CGCACTGGCTAC #7
+                               
+ACGCACTGGCTA                    GCCGATTCTGCC #1
+                                                       
+
+
+
+
+                                
+
