@@ -1,20 +1,24 @@
 import numpy as np
 
 # Define states and observations
-states = ['A', 'B']
+states = ['A', 'B', 'C', 'D']
 observations = ['x', 'y', 'z'] 
-observed_sequence = "xxyzyxzzxzxyxyyzxxzzxxyyxxyxyzzxxyzyzxzxxyxyyzxxzx"
+observed_sequence = "zzyzyxxyxxxzyzyyzyxyzxzyxzzxzyxxxxzzyzzyzzxxyzxyxyzzxyxzxxzyyxxxzzxyxxzzzxxyyyyyxzxyyxzxxyyzxzyxzyyx"
 
 # Define the transition probabilities
 transition_probs = {
-    'A': {'A': 0.612, 'B': 0.314, 'C': 0.074},
-    'B': {'A': 0.346, 'B': 0.317, 'C': 0.336}
+    'A': {'A': 0.236, 'B': 0.183, 'C': 0.291, 'D': 0.291},
+    'B': {'A': 0.150, 'B': 0.167, 'C': 0.535, 'D': 0.148},
+    'C': {'A': 0.411, 'B': 0.231, 'C': 0.241, 'D': 0.117},
+    'D': {'A': 0.181, 'B': 0.243, 'C': 0.379, 'D': 0.197}
 }
 
 # Define the emission probabilities
 emission_probs = {
-    'A': {'x': 0.612, 'y': 0.314, 'z': 0.074},
-    'B': {'x': 0.346, 'y': 0.317, 'z': 0.336}
+    'A': {'x': 0.559, 'y': 0.435, 'z': 0.006},
+    'B': {'x': 0.592, 'y': 0.027, 'z': 0.381},
+    'C': {'x': 0.390, 'y': 0.258, 'z': 0.352},
+    'D': {'x': 0.106, 'y': 0.266, 'z': 0.628}
 }
 
 # Initialize the Viterbi algorithm
